@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "supabase": {
+      "command": "node",
+      "args": [
+        "e:\\Business Websites\\.agents\\supabase-mcp-server.js"
+      ],
+      "env": {
+        "SUPABASE_ACCESS_TOKEN": "sbp_fce30be69053e72dd5b0bbf40102f6dfbf579769",
+        "SUPABASE_PROJECT_REF": "kakyuufwswyphjszggrl"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "e:\\Business Websites"
+      ],
+      "env": {}
+    },
+    "fetch": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-fetch"
+      ],
+      "env": {}
+    }
+  }
+}
